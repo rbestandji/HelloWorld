@@ -2,9 +2,9 @@ import java.io.*;
 
 public class helloWorld
 {
-	private String Name;
+	protected String Name;
 
-	public void helloWorld(String Name){
+	public helloWorld(String Name){
 		this.Name=Name;
 	}
 	public String getName(){
